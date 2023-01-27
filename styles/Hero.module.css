@@ -1,0 +1,16 @@
+.heroSection {
+    height:85vh;
+    background-color: var(--maincolor);
+    --mask:
+    radial-gradient(34.99px at 50% calc(100% - 48.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+    radial-gradient(34.99px at 50% calc(100% + 18.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+.heroSection .banner{
+    background-image: url("../public/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 10px;
+}
